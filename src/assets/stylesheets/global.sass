@@ -1,0 +1,54 @@
+// Vendor
+@import '~normalize.css'
+
+// Overrides
+html
+  height: 100%
+  min-height: 100%
+
+body
+  font-family: 'Roboto', sans-serif
+  background-color: $c-bg
+  box-sizing: border-box
+  position: relative
+  min-height: 100%
+  padding: 130px 0 110px
+
+  @include tablet-portrait-up
+    padding: 161px 0 110px
+
+h1
+  font-size: 33px
+  font-weight: 400
+  font-family: 'Kaushan Script', cursive
+  text-shadow: 4px 4px 4px lighten($c-text, 50%)
+
+h2
+  font-size: 23px
+  font-weight: 400
+
+button
+  cursor: pointer
+
+// Custom classes
+.container
+  padding: 10px
+  margin: 0 auto
+  max-width: 980px
+
+.wrapper
+  box-shadow: 0 2px 6px $c-border
+  background-color: $c-white
+
+.button
+  min-width: 250px
+  padding: 20px 10px
+  border: none
+  background-color: $c-cta
+  color: $c-white
+
+  &:hover
+    background-color: lighten($c-cta, 20%)
+
+  &:active
+    background-color: darken($c-cta, 20%)

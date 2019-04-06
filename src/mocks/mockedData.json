@@ -1,0 +1,34 @@
+[
+  {
+    "name": "White T-Shirt",
+    "id": "ad-243-cvbf",
+    "price": 24,
+    "sizes": ["S", "M", "L"],
+    "colors": ["white"],
+    "img": "https://images.pexels.com/photos/1510529/pexels-photo-1510529.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+  },
+  {
+    "name": "Red Shirt",
+    "id": "mc-123231",
+    "price": 104,
+    "sizes": ["S", "M"],
+    "colors": ["red"],
+    "img": "https://images.pexels.com/photos/1187852/pexels-photo-1187852.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+  },
+  {
+    "name": "Black T-Shirt",
+    "id": "afsdf-243-cvbf",
+    "price": 54,
+    "sizes": ["S"],
+    "colors": ["black"],
+    "img": "https://images.pexels.com/photos/1408183/pexels-photo-1408183.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+  },
+  {
+    "name": "Blue Shirt",
+    "id": "ytrd-243-cvbf",
+    "price": 49,
+    "sizes": ["S", "M"],
+    "colors": ["blue"],
+    "img": "https://images.pexels.com/photos/1043148/pexels-photo-1043148.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+  }
+]
